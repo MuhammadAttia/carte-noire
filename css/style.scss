@@ -11,7 +11,9 @@ $xing:           #006567;
 $google-plus:    #c95644;
 $facebook:       #365899;
 $github:         #f6c2a4;
-$stack-overflow: #c98b3b;
+$email:          #9575CD;
+$medium-blog:    #69F0AE;
+$stack-overflow: #69F0AE;
 $instagram:      #cd486b;
 $reddit:         #cee3f8;
 $rss:            #eea33a;
@@ -97,7 +99,7 @@ ul {
 }
 
 .header {
-	font-size: 28px;
+	font-size: 26px;
 	text-align: center;
 	margin-top: 20px;
 	margin-left: -0%;
@@ -187,7 +189,7 @@ ul {
 	.fa-linkedin:hover {
 		color: $linkedin;
 	}
-	
+
 	.fa-xing:hover {
 		color: $xing;
 	}
@@ -195,7 +197,7 @@ ul {
 	.fa-google-plus:hover {
 		color: $google-plus;
 	}
-	
+
 	.fa-facebook:hover {
 		color: $facebook;
 	}
@@ -204,18 +206,26 @@ ul {
 		color: $github;
 	}
 
+	.fa-envelope:hover {
+		color: $email;
+	}
+
+	.fa-medium:hover {
+		color: $medium-blog;
+	}
+
 	.fa-stack-overflow:hover {
 		color: $stack-overflow;
 	}
-	
+
 	.fa-instagram:hover {
 		color: $instagram;
 	}
-	
+
 	.fa-reddit-alien:hover {
 		color: $reddit;
 	}
-	
+
 	.fa-rss:hover {
 		color: $rss;
 	}
@@ -238,7 +248,7 @@ ul {
 		margin-top: 10px;
 		margin-left: 0%;
 		margin-bottom: 0px;
-		font-size: 20px;
+		font-size: 32px;
 		width: 100%;
 
 		@media (min-width: $screen-lg-min) {
@@ -302,7 +312,7 @@ ul {
 
 	.articles {
 		text-align: center;
-		font-size: 16px;
+		font-size: 20px;
 
 		h2 {
 			margin-bottom: 30px;
@@ -452,11 +462,11 @@ ul {
 	}
 
 	h2 {
-		font-size: 36px;
+		font-size: 22px;
 	}
 
 	h3 {
-		font-size: 28px;
+		font-size: 16px;
 	}
 
 	p {
@@ -560,7 +570,7 @@ ul {
 		}
 
 		.content {
-			font-size: 14px;
+			font-size: 18px;
 			line-height: 170%;
 			padding-left: 15px;
 			padding-right: 15px;
@@ -568,7 +578,7 @@ ul {
 			padding-bottom: 10px;
 
 			@media (min-width: $screen-sm-min) {
-				font-size: 24px;
+				font-size: 14px;
 				padding-left: 30px;
 				padding-right: 30px;
 				padding-top: 40px;
@@ -604,7 +614,7 @@ ul {
 				color: white;
 				box-sizing: content-box;
 				border: none;
-				font-size: 20px;
+				font-size: 18px;
 
 				@media (min-width: $screen-sm-min) {
 					margin-left: -30px;
@@ -625,7 +635,7 @@ ul {
 			    position: absolute;
 			    top: 15px;
 			    left: 15px;
-			    font-size: 50px;
+			    font-size: 45px;
 			    font-weight: bold;
 				}
 
@@ -752,11 +762,11 @@ ul {
 
 	.title {
 		padding-top:20px;
-		font-size: 20px;
+		font-size: 18px;
 		margin-bottom: 20px;
 
 		@media (min-width: $screen-sm-min) {
-			font-size: 32px;
+			font-size: 26px;
 		}
 
 		a {
